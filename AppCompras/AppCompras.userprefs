@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{124FD9C3-FBD6-4BE2-9B2D-515E467339F6}|Default">
+  <MonoDevelop.Ide.ItemProperties.AppCompras.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF883419-3745-42DB-8DE7-5E65460DE4B3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppCompras/Views/ViewCompra.xaml">
+    <Files>
+      <File FileName="AppCompras/App.xaml.cs" Line="13" Column="4" />
+      <File FileName="AppCompras/ViewModels/ViewModelListaCompras.cs" Line="21" Column="6" />
+      <File FileName="AppCompras/Models/Compra.cs" Line="10" Column="4" />
+      <File FileName="AppCompras/Views/ViewListaCompras.xaml.cs" Line="29" Column="4" />
+      <File FileName="AppCompras/Repository/RepositoryCompra.cs" Line="15" Column="27" />
+      <File FileName="Droid/FileHelper.cs" Line="18" Column="4" />
+      <File FileName="AppCompras/ViewModels/ViewModelCompra.cs" Line="72" Column="25" />
+      <File FileName="AppCompras/Views/ViewListaCompras.xaml" Line="19" Column="87" />
+      <File FileName="AppCompras/Views/ViewCompra.xaml" Line="10" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AppCompras" expanded="True" selected="True">
+            <Node name="AppCompras" expanded="True" />
+            <Node name="AppCompras.Droid" expanded="True" />
+            <Node name="AppCompras.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AppCompras.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

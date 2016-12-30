@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:AppCompras.ViewModels;assembly=AppCompras" 
+			 x:Class="AppCompras.Views.ViewCompra"
+			 Title="Compra"
+			 BackgroundColor="#3498db">	
+		<ScrollView>
+			<StackLayout Padding="10,10,10,10" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+				<Entry Text="{Binding Descricao}" Placeholder="Descrição" TextColor="Black" BackgroundColor="Silver" FontSize="14" HorizontalTextAlignment="Start" />
+				<Entry Text="{Binding NomeLoja}" Placeholder="Nome Loja" TextColor="Black" BackgroundColor="Silver" FontSize="14" HorizontalTextAlignment="Start" />
+				<Entry Text="{Binding Valor, StringFormat='{0:0.00}'}" Placeholder="Valor" TextColor="Black" BackgroundColor="Silver" FontSize="14" HorizontalTextAlignment="Start" />
+				<DatePicker Date="{Binding DataCompra, Mode=TwoWay}" Format="dd/MM/yyyy" MinimumDate="1/1/2000" MaximumDate="12/31/2020" />
+				<StackLayout Orientation="Horizontal">
+					<Button Text="Salvar" Command="{Binding onSalvaCompra}" BorderColor="Silver" BorderWidth="1" WidthRequest="100" />	
+					<Button Text="Deletar" Command="{Binding onDeletaCompra}" BorderColor="Silver" BorderWidth="1" WidthRequest="100" />	
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	<ContentPage.Content>
+	</ContentPage.Content>
+</ContentPage>
